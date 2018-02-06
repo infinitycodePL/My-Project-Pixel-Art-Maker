@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The Final Project: Pixel Art Maker ">
+    <meta name="author" content="Lech Rudnicki">
+
+    <title>Lab: Pixel Art Maker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+
+<body>
+
+
+    <main role="main" class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col col-sm-4">
+
+                <h1 class="vertical-text">Lab: Pixel Art Maker</h1>
+
+            </div>
+
+            <div class="col col-sm-4">
+                <h2 class="h3 font-weight-bold text-primary">Choose Grid Size</h2>
+                <form id="sizePicker">
+                    <p class="text-danger">Grid Height:
+                        <input type="number" id="inputHeight" name="height" min="1" value="1"></p>
+                    <p class="text-info">
+                        Grid Width:
+                        <input type="number" id="inputWidth" name="width" min="1" value="1"></p>
+                    <button type="submit" class="btn btn-success my-1">Submit</button>
+
+                </form>
+
+                <h2 class="text-primary h5 font-weight-bold">Pick A Color</h2>
+                <input type="color" id="colorPicker">
+
+
+                <table id="pixelCanvas"></table>
+
+
+                <button id="reset" class="btn btn-dark my-3">Clear it Now!</button>
+
+
+
+            </div>
+        </div>
+
+    </main>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- My scripts -->
+    <script src="./js/designs.js"></script>
+
+</body>
+
+</html>
